@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #210909;
+    color: white;
+    height: 100vh;
+}
+
+#formulario {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+legend {
+    font-size: 40px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+label {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.em {
+    /* background-image: url('../assets/icon-email.svg');
+    background-repeat: no-repeat;
+    background-position:  5px 10px; */
+    margin-bottom: 30px;
+    padding: 15px 40px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-icon-email {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    border-right: #000000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+}
+
+.se {
+    /* background-image: url('../assets/icon-senha.svg');
+    background-repeat: no-repeat;
+    background-position:  5px 10px; */
+    padding: 15px 40px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.card-icon-senha {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    border-right: #000000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+}
+
+.leb {
+    display: block;
+}
+
+button {
+    background-color: #584ECB;
+    color: #F8FD00;
+    margin: auto;
+    padding: 10px 95px;
+    display: block;
+    font-family: 'Abhaya Libre', serif;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    fieldset {
+        padding: 20px;
+    }
+}
